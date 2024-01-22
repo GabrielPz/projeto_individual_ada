@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 1280px;
+    background-color: #FBFEFD;
+    padding: 80px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    height: 90%
+}
+
+.splash{
+    width: 1100px;
+    height: 762px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    height: 90px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    height: 632px;
+    background: linear-gradient(to right, #FBED96, #ABECD6);
+    padding: 38px 130px;
+    border-radius: 44px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    width: 840px;
+    height: 556px;
+    gap: 42px;
+}
+
+.main{
+    width: 840px;
+    height: 477px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main p {
+    width: 380px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 44px;
+    letter-spacing: -6%;
+}
+
+.main a {
+    width: 840px;
+    height: 284px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 118,6%;
+    text-align: center;
+}
+
+.highlight {
+    color: #40C4FF;
+}
+
+.buttons{
+    width: 266;
+    height: 37;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons :first-child{
+    width: 130px;
+    height: 37px;
+    border-radius: 32px;
+    gap: 8px;
+    padding: 8px 36px;
+    background-color: #121212;
+    color: white;
+}
+
+.buttons :last-child{
+    width: 120px;
+    height: 28px;
+    column-gap: 4px;
+    color: #121212;
+    font-weight: 600;
+    background-color: rgba(245, 245, 220, 0);
+    border: 0px;
+}
+
+.header{
+    width: 840px;
+    height: 352px;
+}
