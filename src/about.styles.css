@@ -36,7 +36,6 @@
 }
 
 .paragraph :first-child{
-    width: 523px;
     height: 198px;
     display: flex;
     flex-direction: row;
@@ -52,7 +51,7 @@
     color: #121212;
 }
 
-.paragraph :first-child img{
+.divider{
     width: 5px;
     height: 198px;
 }
